@@ -7,17 +7,19 @@ It only open in two modes
 2. Insert Mode. 
 When you open a file it will open in command mode. If the file contains data, user should be able to move up and down using cursor and type commands.
 
-* vim filename - open a vim editor
+Type  `vim filename`  to open a vim editor. Opens file if it exists else creates a new file.
 
 ### Commands after opening Vim
 
-* i - After opening vim it does not open in editable mode, type "i"  to start insert mode 
+* i - After opening vim it does not open in editable mode, type "i"  to switch from command mode to insert mode 
 
 * o - Opens a new line and places the cursor on new line for edit
 
-* Esc - to switch from insert mode to command mode
+* Esc - Switch from insert mode to command mode
 
-* dd - 
+* dd - Delete the line the current cursor is on
+
+
 
 
 
