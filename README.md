@@ -17,7 +17,17 @@ Type  `vim filename`  to open a vim editor. Opens file if it exists else creates
 
 * Esc - Switch from insert mode to command mode
 
-* dd - Delete the line the current cursor is on
+* dd - Delete th current line the cursor is on
+
+
+
+## Sublime
+Sublime is one of the editors used heavily outside
+
+* Install sublime in Applications folder
+* open /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+* Create symbolic link for sublime ->  `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sub`
+
 
 
 
