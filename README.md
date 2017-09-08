@@ -12,13 +12,15 @@ Type  `vim filename`  to open a vim editor. Opens file if it exists else creates
 ### Commands after opening Vim
 
 * i - After opening vim it does not open in editable mode, type "i"  to switch from command mode to insert mode 
-
 * o - Opens a new line and places the cursor on new line for edit
-
 * Esc - Switch from insert mode to command mode
-
 * dd - Delete th current line the cursor is on
 
+### Commands for exiting Vim
+
+* :wq - Save the data/file and exit
+* :q! - Exit without warnings
+* :q  - Exit with warning if unsaved data
 
 
 ## Sublime
@@ -27,6 +29,30 @@ Sublime is one of the editors used heavily outside
 * Install sublime in Applications folder
 * open /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
 * Create symbolic link for sublime ->  `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sub`
+
+### Code formatting in Sublime for different languages
+
+### Python PEP8 Autoformat 
+* To get list of controls type cmd+shift+P
+* Choose "Package Control: Install Package"
+* Choose Python PEP8 Autoformat
+* To format the whole docume type : CTRL + Shift + r
+
+### Pretty JSON Formatting 
+* To get list of controls type cmd+shift+P
+* Choose "Package Control: Install Package"
+* Choose Pretty JSON and install
+* To format the whole docume type : CTRL + CMD + j
+
+
+### JS Beautifier  
+* To get list of controls type cmd+shift+P
+* Choose "Package Control: Install Package"
+* Choose Pretty JsFormat and install
+* To format the whole docume type : CTRL + CMD + f
+
+
+
 
 
 
