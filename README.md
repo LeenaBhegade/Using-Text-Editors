@@ -69,6 +69,28 @@ Sublime is one of the editors used heavily by developers.
 * Package Control Options
 
 
+# Bash Commands
+* cat  - Display contents of a file
+* mkdir - create a directory
+* cd  - Change directory
+* ls  - Show directory contents, lists names of files. -la
+* touch - creates a file with specified name
+* rm - Removes a spciefied file
+* cp - Copy contents from one directory to another
+* mv - Move file from one location to another
+* history - Display a listing of last commands
+* clear - clears the screen and places pointer on the top
+* chmod - Change the permission of a file
+* ln - Create links to pre existing file. For eg 
+* CTRL C - Terminates a running process
+* whoami - User of the terminal
+* sudo - Execute a command as a super user
+* grep	- Search a file for a given string  - eg - grep 'word' filename
+
+
+ 
+
+
 
 
 
